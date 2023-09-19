@@ -39,5 +39,14 @@ El servidor lo vamos a hacer con Node.js y Express.js. Encima de Node.js añadir
 Vamos a ver como seria crear el servidor básico con Node.js lo tenemos en la carpeta servidor-node.
 Tambien he creado un servidor en la carpeta servidor-express.
 
-Vamos a ver el tema de routing con express esto lo vemos con el proyecto routing-express:
+## Proyectos:
+Para dar explicación he creado diferentes proyectos donde se pueden ver los diferentes apartados que podemos genrar con Express.js
 
+El tema de routing con express esto lo vemos con el proyecto routing-express:
+El tema de metodos http lo tenemos en el proyecto methods-http
+
+Ahora veremos en funcion del tipo de peticion que haga el cliente, que puede responder el servidor.
+De momento solo hemos creado rutas que retornan texto plano. Pero podemos enviar archivos HTML, videos, audios, imágenes, o formatos en XML o JSON.
+OJO con esto porque las APIs retornan normalmente archivos JSON.
+
+Vamos a ver como retornar otros tipos de archivos en el proyecto peticiones.
