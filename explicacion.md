@@ -39,5 +39,5 @@ El servidor lo vamos a hacer con Node.js y Express.js. Encima de Node.js añadir
 Vamos a ver como seria crear el servidor básico con Node.js lo tenemos en la carpeta servidor-node.
 Tambien he creado un servidor en la carpeta servidor-express.
 
-Vamos a ver el tema de routing con express esto lo vemos con el proyecto node-express:
+Vamos a ver el tema de routing con express esto lo vemos con el proyecto routing-express:
 
