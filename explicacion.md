@@ -62,3 +62,10 @@ app.use(express.text());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+6. Request-params:
+Tenemos el proyecto request-params para saber como poder procesar datos que viene por la url en peticiones desde el cliente.
+Todas estas son peticiones de tipo get.
+
+
+
+
