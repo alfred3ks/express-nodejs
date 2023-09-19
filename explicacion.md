@@ -50,3 +50,4 @@ De momento solo hemos creado rutas que retornan texto plano. Pero podemos enviar
 OJO con esto porque las APIs retornan normalmente archivos JSON.
 
 Vamos a ver como retornar otros tipos de archivos en el proyecto peticiones.
+En este ejemplo vemos como podemos retornar un JSON y tambien los codigos de estados, como podemos enviar un respuesta de solo códogo de estado por si esta activo o no el servidor.
