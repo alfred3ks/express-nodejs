@@ -66,6 +66,18 @@ app.use(express.urlencoded({ extended: false }));
 Tenemos el proyecto request-params para saber como poder procesar datos que viene por la url en peticiones desde el cliente.
 Todas estas son peticiones de tipo get.
 
+7. Queries:
+Adicionalmente a los parametros se pueden enviar otro tipo de informacion por la url. El signo de ? se le llama query params, o una consulta, es informacion adicional que el navegador puede enviar al backend para que este la utilice.
 
+http://127.0.0.1:3000/usuario/alfred3ks?x=20&y=22
 
+Las query seria a partir del simbolo de interrogación:
+
+?x=20&y=22
+
+http://127.0.0.1:3000/search/?course=javascript
+http://127.0.0.1:3000/search/?user=luis&user=pepe&user=mario&user=pepito
+
+?course=javascript
+?user=luis&user=pepe&user=mario&user=pepito
 
