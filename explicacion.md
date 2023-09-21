@@ -81,3 +81,13 @@ http://127.0.0.1:3000/search/?user=luis&user=pepe&user=mario&user=pepito
 ?course=javascript
 ?user=luis&user=pepe&user=mario&user=pepito
 
+8. Todos los métodos:
+A parte de los métodos get, post, put, delete, en express hay una funcion especial que tal vez no es muy usada pero debemos saber que existe.
+
+Es el método all.
+
+Lo vemos en el proyecto todos-los-metodos.
+
+
+
+
