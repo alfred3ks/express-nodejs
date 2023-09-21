@@ -88,6 +88,12 @@ Es el método all.
 
 Lo vemos en el proyecto todos-los-metodos.
 
+9. Introducción a los Middleware:
 
+Hasta ahra hemos creado rutas que cuando el navegador las solicita el servidor las procesa y muestra algo.
 
+Vamos a tratar de entender un concepto que esta realcionada con las rutas, son los Middleware.
 
+En express este concepto es muy importante.
+
+quedo:1:49:23
