@@ -45,14 +45,14 @@ Para dar explicación he creado diferentes proyectos donde se pueden ver los dif
 1. El tema de routing con express esto lo vemos con el proyecto routing-express.
 2. El tema de metodos http lo tenemos en el proyecto metodos-http.
 
-3. Ahora veremos en funcion del tipo de peticion que haga el cliente, que puede responder el servidor.
+Ahora veremos en funcion del tipo de peticion que haga el cliente, que puede responder el servidor.
 De momento solo hemos creado rutas que retornan texto plano. Pero podemos enviar archivos HTML, videos, audios, imágenes, o formatos en XML o JSON.
 OJO con esto porque las APIs retornan normalmente archivos JSON.
 
 4. Vamos a ver como retornar otros tipos de archivos en el proyecto peticiones.
 En este ejemplo vemos como podemos retornar un JSON y tambien los codigos de estados, como podemos enviar un respuesta de solo códogo de estado por si esta activo o no el servidor.
 
-5. Ahora vamos a ver el objeto request body:
+4. Ahora vamos a ver el objeto request body:
 Para esto he creado el proyecto request-body.
 Veremos como podemos recibir la informacion que nos envia el cliente por medio de objeto request body.
 
@@ -62,11 +62,11 @@ app.use(express.text());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-6. Request-params:
+5. Request-params:
 Tenemos el proyecto request-params para saber como poder procesar datos que viene por la url en peticiones desde el cliente.
 Todas estas son peticiones de tipo get.
 
-7. Queries:
+6. Queries:
 Adicionalmente a los parametros se pueden enviar otro tipo de informacion por la url. El signo de ? se le llama query params, o una consulta, es informacion adicional que el navegador puede enviar al backend para que este la utilice.
 
 http://127.0.0.1:3000/usuario/alfred3ks?x=20&y=22
@@ -81,14 +81,14 @@ http://127.0.0.1:3000/search/?user=luis&user=pepe&user=mario&user=pepito
 ?course=javascript
 ?user=luis&user=pepe&user=mario&user=pepito
 
-8. Todos los métodos:
+7. Todos los métodos:
 A parte de los métodos get, post, put, delete, en express hay una funcion especial que tal vez no es muy usada pero debemos saber que existe.
 
 Es el método all.
 
 Lo vemos en el proyecto todos-los-metodos.
 
-9. Introducción a los Middleware:
+8. Introducción a los Middleware:
 
 Hasta ahra hemos creado rutas que cuando el navegador las solicita el servidor las procesa y muestra algo.
 
