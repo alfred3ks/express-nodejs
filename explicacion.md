@@ -96,4 +96,13 @@ Vamos a tratar de entender un concepto que esta realcionada con las rutas, son l
 
 En express este concepto es muy importante.
 
-quedo:1:49:23
+9. Vamos a ampliar mas el concepto de middleware, para esto tengo el proyecto 9-los-middleware2.
+Lo que vemos en este proyecto es como por medio de un middleware podemos proteger las rutas, para poder mostrar las rutas podemos agregar una condicion, como podria ser consultar a una BD y verificar si el usuario existe y mostrarle o no mas información.
+
+Vemos como protegemos el acceso a:
+
+http://127.0.0.1:3000/dashboard/
+
+Aquí lo importante es que el orden como coloquemos las rutas y los middleware importa, porque se iran evaluando unos mostraran un mensaje o responderan a next(). Si alguno ya responde no se evaluaran mas middleware o rutas. OJO con eso.
+
+
