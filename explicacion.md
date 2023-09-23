@@ -108,4 +108,5 @@ Aquí lo importante es que el orden como coloquemos las rutas y los middleware i
 10. Continuamos la tercera parte de los middleware. Podemos ver el código en el proyecto:
 10-middleware3.
 
+En este proyecto hemos visto como poder instalar desde npm middleware de terceros, hemos instalado el middleware morgan, que nos permite mostrar por consola un log en cada peticion mas bonito y que nos agrega mas información.
 
