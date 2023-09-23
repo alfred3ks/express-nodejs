@@ -105,4 +105,7 @@ http://127.0.0.1:3000/dashboard/
 
 Aquí lo importante es que el orden como coloquemos las rutas y los middleware importa, porque se iran evaluando unos mostraran un mensaje o responderan a next(). Si alguno ya responde no se evaluaran mas middleware o rutas. OJO con eso.
 
+10. Continuamos la tercera parte de los middleware. Podemos ver el código en el proyecto:
+10-middleware3.
+
 
